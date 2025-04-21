@@ -1,0 +1,68 @@
+CRITICAL - 2025-04-18 10:00:05 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 G:\My Drive\daftarbeasiswa\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('G:\\My Drive\\daf...')
+#1 G:\My Drive\daftarbeasiswa\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mode...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mode...')
+#3 G:\My Drive\daftarbeasiswa\app\Controllers\Home.php(225): spl_autoload_call('App\\Models\\Mode...')
+#4 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#5 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\daftarbeasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\daftarbeasiswa\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\daf...')
+#9 {main}
+CRITICAL - 2025-04-18 10:02:32 --> Call to a member function where() on null
+#0 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(832): App\Controllers\Home->pendaftaran()
+#1 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\daftarbeasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\daftarbeasiswa\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\daf...')
+#5 {main}
+CRITICAL - 2025-04-18 10:02:39 --> Call to a member function where() on null
+#0 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(832): App\Controllers\Home->pendaftaran()
+#1 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\daftarbeasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\daftarbeasiswa\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\daf...')
+#5 {main}
+CRITICAL - 2025-04-18 10:04:27 --> Call to a member function where() on null
+#0 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(832): App\Controllers\Home->pendaftaran()
+#1 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\daftarbeasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\daftarbeasiswa\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\daf...')
+#5 {main}
+CRITICAL - 2025-04-18 10:06:23 --> Call to a member function where() on null
+#0 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(832): App\Controllers\Home->pendaftaran()
+#1 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\daftarbeasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\daftarbeasiswa\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\daf...')
+#5 {main}
+CRITICAL - 2025-04-18 10:06:56 --> Class 'App\Models\BeasiswaModel' not found
+#0 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#1 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\daftarbeasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\daftarbeasiswa\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\daf...')
+#5 {main}
+CRITICAL - 2025-04-18 10:07:07 --> Call to a member function where() on null
+#0 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(832): App\Controllers\Home->pendaftaran()
+#1 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\daftarbeasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\daftarbeasiswa\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\daf...')
+#5 {main}
+CRITICAL - 2025-04-18 10:08:42 --> Call to a member function where() on null
+#0 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(832): App\Controllers\Home->pendaftaran()
+#1 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\daftarbeasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\daftarbeasiswa\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\daf...')
+#5 {main}
+CRITICAL - 2025-04-18 11:36:41 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 G:\My Drive\daftarbeasiswa\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/logout')
+#1 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/logout')
+#2 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\daftarbeasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\daftarbeasiswa\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\daf...')
+#6 {main}

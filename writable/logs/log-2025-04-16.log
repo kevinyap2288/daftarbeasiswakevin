@@ -1,0 +1,18 @@
+ERROR - 2025-04-16 21:02:26 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2025-04-16 21:02:26 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 G:\My Drive\daftarbeasiswa\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\My Drive\daftarbeasiswa\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 G:\My Drive\daftarbeasiswa\app\Views\header.php(8): CodeIgniter\Database\BaseBuilder->get()
+#3 G:\My Drive\daftarbeasiswa\system\View\View.php(210): include('G:\\My Drive\\daf...')
+#4 G:\My Drive\daftarbeasiswa\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 G:\My Drive\daftarbeasiswa\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#6 G:\My Drive\daftarbeasiswa\app\Controllers\Home.php(107): view('header')
+#7 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#8 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\My Drive\daftarbeasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 G:\My Drive\daftarbeasiswa\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\daf...')
+#12 {main}

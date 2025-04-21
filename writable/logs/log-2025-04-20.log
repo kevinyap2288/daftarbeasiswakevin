@@ -1,0 +1,89 @@
+ERROR - 2025-04-20 05:38:31 --> Unknown column 'mahasiswa.nilai_ipk' in 'field list'
+ERROR - 2025-04-20 05:41:04 --> Unknown column 'mahasiswa.nilai_ipk' in 'field list'
+ERROR - 2025-04-20 05:41:23 --> Unknown column 'mahasiswa.nilai_ipk' in 'field list'
+ERROR - 2025-04-20 05:42:25 --> Unknown column 'mahasiswa.nilai_ipk' in 'field list'
+ERROR - 2025-04-20 05:45:09 --> Unknown column 'mahasiswa.nilai_ipk' in 'field list'
+ERROR - 2025-04-20 05:45:24 --> Unknown column 'mahasiswa.nilai_ipk' in 'field list'
+ERROR - 2025-04-20 05:46:50 --> Unknown column 'mahasiswa.nilai_ipk' in 'field list'
+ERROR - 2025-04-20 05:48:43 --> Unknown column 'mahasiswa.nilai_ipk' in 'field list'
+ERROR - 2025-04-20 05:48:49 --> Unknown column 'mahasiswa.nilai_ipk' in 'field list'
+ERROR - 2025-04-20 05:55:23 --> Unknown column 'mahasiswa.nilai_ipk' in 'field list'
+ERROR - 2025-04-20 05:56:05 --> Unknown column 'mahasiswa.nilai_ipk' in 'field list'
+ERROR - 2025-04-20 05:56:26 --> Unknown column 'mahasiswa.nilai_ipk' in 'field list'
+ERROR - 2025-04-20 05:57:46 --> Unknown column 'mahasiswa.nilai_ipk' in 'field list'
+ERROR - 2025-04-20 05:58:23 --> Unknown column 'mahasiswa.nilai_ipk' in 'field list'
+CRITICAL - 2025-04-20 06:00:10 --> Class 'App\Controllers\ReservationModel' not found
+#0 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(832): App\Controllers\Home->riwayatbeasiswa()
+#1 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\daftarbeasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\daftarbeasiswa\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\daf...')
+#5 {main}
+CRITICAL - 2025-04-20 06:02:55 --> Class 'App\Controllers\ReservationModel' not found
+#0 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(832): App\Controllers\Home->riwayatbeasiswa()
+#1 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\daftarbeasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\daftarbeasiswa\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\daf...')
+#5 {main}
+ERROR - 2025-04-20 06:03:22 --> Unknown column 'mahasiswa.nilai_ipk' in 'field list'
+CRITICAL - 2025-04-20 06:03:22 --> Call to a member function getResultArray() on bool
+#0 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(832): App\Controllers\Home->riwayatbeasiswa()
+#1 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\daftarbeasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\daftarbeasiswa\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\daf...')
+#5 {main}
+CRITICAL - 2025-04-20 06:05:02 --> Call to a member function getResultArray() on null
+#0 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(832): App\Controllers\Home->riwayatbeasiswa()
+#1 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\daftarbeasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\daftarbeasiswa\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\daf...')
+#5 {main}
+ERROR - 2025-04-20 06:06:02 --> Unknown column 'mahasiswa.nilai_ipk' in 'field list'
+CRITICAL - 2025-04-20 06:06:36 --> Call to a member function getResultArray() on null
+#0 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(832): App\Controllers\Home->riwayatbeasiswa()
+#1 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\daftarbeasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\daftarbeasiswa\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\daf...')
+#5 {main}
+ERROR - 2025-04-20 06:08:22 --> Unknown column 'mahasiswa.nilai_ipk' in 'field list'
+CRITICAL - 2025-04-20 06:08:22 --> Call to a member function getResultArray() on bool
+#0 G:\My Drive\daftarbeasiswa\app\Controllers\Home.php(588): App\Models\PendaftaranModel->getRiwayatPendaftaran('4', '1')
+#1 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(832): App\Controllers\Home->riwayatbeasiswa()
+#2 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\daftarbeasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\daftarbeasiswa\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\daf...')
+#6 {main}
+ERROR - 2025-04-20 06:10:35 --> Unknown column 'mahasiswa.nilai_ipk' in 'field list'
+CRITICAL - 2025-04-20 06:11:42 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 G:\My Drive\daftarbeasiswa\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('G:\\My Drive\\daf...')
+#1 G:\My Drive\daftarbeasiswa\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Pend...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Pend...')
+#3 G:\My Drive\daftarbeasiswa\app\Controllers\Home.php(587): spl_autoload_call('App\\Models\\Pend...')
+#4 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(832): App\Controllers\Home->riwayatbeasiswa()
+#5 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\daftarbeasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\daftarbeasiswa\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\daf...')
+#9 {main}
+CRITICAL - 2025-04-20 06:12:13 --> Call to a member function getResultArray() on null
+#0 G:\My Drive\daftarbeasiswa\app\Controllers\Home.php(588): App\Models\PendaftaranModel->getRiwayatPendaftaran('4', '1')
+#1 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(832): App\Controllers\Home->riwayatbeasiswa()
+#2 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\daftarbeasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\daftarbeasiswa\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\daf...')
+#6 {main}
+ERROR - 2025-04-20 06:12:25 --> Unknown column 'mahasiswa.nilai_ipk' in 'field list'
+CRITICAL - 2025-04-20 06:12:25 --> Call to a member function getResultArray() on bool
+#0 G:\My Drive\daftarbeasiswa\app\Controllers\Home.php(588): App\Models\PendaftaranModel->getRiwayatPendaftaran('4', '1')
+#1 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(832): App\Controllers\Home->riwayatbeasiswa()
+#2 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\daftarbeasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\daftarbeasiswa\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\daf...')
+#6 {main}

@@ -1,0 +1,57 @@
+ERROR - 2025-04-15 02:31:58 --> Table 'daftarbeasiswa.parkir' doesn't exist
+CRITICAL - 2025-04-15 02:31:58 --> Call to a member function getResult() on bool
+#0 G:\My Drive\daftarbeasiswa\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 G:\My Drive\daftarbeasiswa\app\Models\ParkingModel.php(15): CodeIgniter\BaseModel->findAll()
+#2 G:\My Drive\daftarbeasiswa\app\Controllers\Home.php(464): App\Models\ParkingModel->getAllSpaces()
+#3 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(832): App\Controllers\Home->pendaftaran()
+#4 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\daftarbeasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\daftarbeasiswa\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\daf...')
+#8 {main}
+CRITICAL - 2025-04-15 02:32:31 --> Argument 2 passed to view() must be of the type array, null given, called in G:\My Drive\daftarbeasiswa\app\Controllers\Home.php on line 462
+#0 G:\My Drive\daftarbeasiswa\app\Controllers\Home.php(462): view('header', NULL)
+#1 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(832): App\Controllers\Home->pendaftaran()
+#2 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\daftarbeasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\daftarbeasiswa\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\daf...')
+#6 {main}
+CRITICAL - 2025-04-15 02:33:05 --> Invalid file: portofolio.php
+#0 G:\My Drive\daftarbeasiswa\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('portofolio.php')
+#1 G:\My Drive\daftarbeasiswa\system\Common.php(1089): CodeIgniter\View\View->render('portofolio', Array, true)
+#2 G:\My Drive\daftarbeasiswa\app\Controllers\Home.php(464): view('portofolio')
+#3 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(832): App\Controllers\Home->pendaftaran()
+#4 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\daftarbeasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\daftarbeasiswa\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\daf...')
+#8 {main}
+CRITICAL - 2025-04-15 02:33:36 --> Invalid file: portofolio.php
+#0 G:\My Drive\daftarbeasiswa\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('portofolio.php')
+#1 G:\My Drive\daftarbeasiswa\system\Common.php(1089): CodeIgniter\View\View->render('portofolio', Array, true)
+#2 G:\My Drive\daftarbeasiswa\app\Controllers\Home.php(464): view('portofolio')
+#3 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(832): App\Controllers\Home->pendaftaran()
+#4 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\daftarbeasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\daftarbeasiswa\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\daf...')
+#8 {main}
+ERROR - 2025-04-15 21:04:41 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2025-04-15 21:04:41 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 G:\My Drive\daftarbeasiswa\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\My Drive\daftarbeasiswa\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 G:\My Drive\daftarbeasiswa\app\Views\header.php(8): CodeIgniter\Database\BaseBuilder->get()
+#3 G:\My Drive\daftarbeasiswa\system\View\View.php(210): include('G:\\My Drive\\daf...')
+#4 G:\My Drive\daftarbeasiswa\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 G:\My Drive\daftarbeasiswa\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#6 G:\My Drive\daftarbeasiswa\app\Controllers\Home.php(107): view('header')
+#7 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#8 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\My Drive\daftarbeasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 G:\My Drive\daftarbeasiswa\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\daf...')
+#12 {main}

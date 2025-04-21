@@ -1,0 +1,12 @@
+ERROR - 2025-04-11 08:34:38 --> Table 'daftarbeasiswa.pengaturan_app' doesn't exist
+CRITICAL - 2025-04-11 08:34:38 --> Call to a member function getRow() on bool
+#0 G:\My Drive\daftarbeasiswa\system\View\View.php(210): include()
+#1 G:\My Drive\daftarbeasiswa\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 G:\My Drive\daftarbeasiswa\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#3 G:\My Drive\daftarbeasiswa\app\Controllers\Home.php(109): view('header')
+#4 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#5 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\daftarbeasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\daftarbeasiswa\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\daf...')
+#9 {main}

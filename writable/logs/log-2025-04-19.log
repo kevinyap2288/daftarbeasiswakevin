@@ -1,0 +1,73 @@
+CRITICAL - 2025-04-19 11:24:34 --> syntax error, unexpected 'if' (T_IF), expecting ';' or '{'
+#0 G:\My Drive\daftarbeasiswa\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/login')
+#1 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/login')
+#2 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\daftarbeasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\daftarbeasiswa\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\daf...')
+#6 {main}
+ERROR - 2025-04-19 11:30:43 --> Unknown column 'nama' in 'field list'
+ERROR - 2025-04-19 11:41:14 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2025-04-19 11:41:14 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 G:\My Drive\daftarbeasiswa\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\My Drive\daftarbeasiswa\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 G:\My Drive\daftarbeasiswa\app\Views\header.php(8): CodeIgniter\Database\BaseBuilder->get()
+#3 G:\My Drive\daftarbeasiswa\system\View\View.php(210): include('G:\\My Drive\\daf...')
+#4 G:\My Drive\daftarbeasiswa\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 G:\My Drive\daftarbeasiswa\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#6 G:\My Drive\daftarbeasiswa\app\Controllers\Home.php(490): view('header')
+#7 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(832): App\Controllers\Home->pendaftaranpilih('1')
+#8 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\My Drive\daftarbeasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 G:\My Drive\daftarbeasiswa\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\daf...')
+#12 {main}
+ERROR - 2025-04-19 11:42:00 --> Unknown column 'nama' in 'where clause'
+CRITICAL - 2025-04-19 11:42:00 --> Call to a member function getFirstRow() on bool
+#0 G:\My Drive\daftarbeasiswa\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 G:\My Drive\daftarbeasiswa\app\Controllers\Home.php(516): CodeIgniter\BaseModel->first()
+#2 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(832): App\Controllers\Home->insertformdaftar()
+#3 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\My Drive\daftarbeasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 G:\My Drive\daftarbeasiswa\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\daf...')
+#7 {main}
+CRITICAL - 2025-04-19 12:50:40 --> syntax error, unexpected 'opsional' (T_STRING)
+#0 G:\My Drive\daftarbeasiswa\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/pendaftara...')
+#1 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/pendaftara...')
+#2 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\daftarbeasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\daftarbeasiswa\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\daf...')
+#6 {main}
+CRITICAL - 2025-04-19 12:50:55 --> syntax error, unexpected 'opsional' (T_STRING)
+#0 G:\My Drive\daftarbeasiswa\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/pendaftara...')
+#1 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/pendaftara...')
+#2 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\daftarbeasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\daftarbeasiswa\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\daf...')
+#6 {main}
+CRITICAL - 2025-04-19 12:51:04 --> syntax error, unexpected 'opsional' (T_STRING)
+#0 G:\My Drive\daftarbeasiswa\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/pendaftara...')
+#1 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/pendaftara...')
+#2 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\daftarbeasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\daftarbeasiswa\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\daf...')
+#6 {main}
+ERROR - 2025-04-19 13:47:26 --> Unknown column 'pengguna.id_pengguna' in 'on clause'
+CRITICAL - 2025-04-19 13:47:26 --> Call to a member function getResultArray() on bool
+#0 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(832): App\Controllers\Home->showDaftarBeasiswaHistory()
+#1 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\daftarbeasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\daftarbeasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\daftarbeasiswa\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\daf...')
+#5 {main}
+ERROR - 2025-04-19 13:56:53 --> Unknown column 'mahasiswa.nilai_ipk' in 'field list'
+ERROR - 2025-04-19 13:57:22 --> Unknown column 'mahasiswa.nilai_ipk' in 'field list'
+ERROR - 2025-04-19 13:58:25 --> Unknown column 'mahasiswa.nilai_ipk' in 'field list'
+ERROR - 2025-04-19 13:58:53 --> Unknown column 'mahasiswa.nilai_ipk' in 'field list'
